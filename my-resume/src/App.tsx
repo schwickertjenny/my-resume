@@ -1,12 +1,15 @@
 import React from 'react';
 // Components
 import Welcome from './components/Welcome'
+// Styles
+import { GlobalStyle } from './app.styles'
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       <Welcome />
-    </div>
+    </>
   );
 }
 
