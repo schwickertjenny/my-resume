@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-//@ts-ignore
 
 export const GlobalStyle = createGlobalStyle `
     html {
