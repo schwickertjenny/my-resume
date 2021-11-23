@@ -6,7 +6,7 @@ import { personaData, welcomePage } from "../data/resume.data";
 
 let fullName = personaData.firstName + " " + personaData.sureName;
 
-function Welcome() {
+function Welcome(): JSX.Element {
   return (
       <>
         {/* <TypeWriter /> */}

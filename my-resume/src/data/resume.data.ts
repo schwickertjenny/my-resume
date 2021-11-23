@@ -59,6 +59,6 @@ export type Welcome = {
 }
 
 export const welcomePage: Welcome = {
-    hello: "Hallo, mein Name ist " + personaData.firstName + " " + personaData.sureName ,
-    profession: "Ich bin Projektmanager",
+    hello: "Hallo, mein Name ist " + personaData.firstName + " " + personaData.sureName + ".",
+    profession: "Ich bin Projektmanager & Scrum Master.",
 }

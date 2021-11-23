@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 // Components
-import Welcome from './components/Welcome'
-// Styles
-import { GlobalStyle } from './app.styles'
+import Welcome from "./components/Welcome";
+import { NavBar } from "./components/NavBar";
+
 
 function App() {
   return (
     <>
-      <GlobalStyle />
+      <NavBar />
       <Welcome />
     </>
   );

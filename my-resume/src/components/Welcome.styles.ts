@@ -12,8 +12,11 @@ export const Wrapper = styled.div `
         font-size: 3vw;
     }
 `
+
+/* Credit: https://css-tricks.com/snippets/css/typewriter-effect/ 23.11.21 */
 export const TypeWriter = styled.div `
-   div.typewriter h1 {
+
+   .typewriter h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid orange; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
