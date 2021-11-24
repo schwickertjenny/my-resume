@@ -62,3 +62,23 @@ export const welcomePage: Welcome = {
     hello: "Hallo, mein Name ist " + personaData.firstName + " " + personaData.sureName + ".",
     profession: "Ich bin Projektmanager & Scrum Master.",
 }
+
+// NavBar Links
+export const NavBarLinks: dataElem[] = [
+    {
+        label: "Home",
+        value: "/",
+    },
+    {
+        label: "Über mich",
+        value: "/about-me",
+    },
+    {
+        label: "Projekte",
+        value: "/projects",
+    },
+    {
+        label: "Kontakt",
+        value: "/contact",
+    },
+]

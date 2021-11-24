@@ -29,10 +29,6 @@ export const Wrapper = styled.div`
     font-size: 2vw;
     letter-spacing: 4px;
   }
-
-  a.blink {
-    opacity: 1;
-  }
   @keyframes blink {
     0%,
     50%,

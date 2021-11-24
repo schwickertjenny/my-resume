@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 // Pages
 import About from "./pages/about";
 import Projects from "./pages/projects";
+import Contact from "./pages/contact";
 // Styles
 import { GlobalStyle } from "./app.styles";
 
@@ -16,6 +17,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="about-me" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<main>There is nothing here!</main>} />
