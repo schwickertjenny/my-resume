@@ -1,5 +1,3 @@
-import { red } from "@material-ui/core/colors";
-import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import { Wrapper } from "./NavBar.styles";
 
@@ -8,19 +6,19 @@ import { NavBarLinks } from "../data/resume.data";
 
 export function NavBar() {
   return (
-    <>
-      <Wrapper className="nav-bar">
+    <Wrapper>
+      <div className="nav-bar">
         <nav>
           <ul>
             {NavBarLinks.map((link) => (
-              <li>
+              <li key={link.label}>
                 <Link to={link.value}>{link.label}</Link>
               </li>
             ))}
           </ul>
         </nav>
         <Outlet />
-      </Wrapper>
-    </>
+      </div>
+    </Wrapper>
   );
 }

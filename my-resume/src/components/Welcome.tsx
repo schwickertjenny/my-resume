@@ -1,22 +1,23 @@
-import React from "react";
 //Styles
-import { Wrapper, TypeWriter } from "./Welcome.styles";
+import { Wrapper } from "./Welcome.styles";
+import { TypeWriter } from "./TypeWriter.styles";
 // Data
-import { personaData, welcomePage } from "../data/resume.data";
-
-let fullName = personaData.firstName + " " + personaData.sureName;
+import { welcomePage } from "../data/resume.data";
 
 function Welcome(): JSX.Element {
   return (
-      <>
-        {/* <TypeWriter /> */}
-        <Wrapper >
-            <img src={ personaData.profilePic } alt={ fullName }/>
-            <div className="typewriter">
-                <h1>{ welcomePage.hello }</h1>
-                <p>{ welcomePage.profession }</p>
-            </div>
-        </Wrapper>
+    <>
+      {/* <TypeWriter /> */}
+      <Wrapper>
+        {/* <img src={ personaData.profilePic } alt={ fullName }/> */}
+
+        <TypeWriter>
+            <h1>{welcomePage.hello}</h1>
+          {/* <div className="css-typing"> */}
+            <p>{welcomePage.profession}</p>
+          {/* </div> */}
+        </TypeWriter>
+      </Wrapper>
     </>
   );
 }
