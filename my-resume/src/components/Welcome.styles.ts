@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
+
 export const Wrapper = styled.div`
-  img {
-    border-radius: 50%;
-    width: 35%;
+  img.wallpaper {
+    width: 100%;
   }
   h1 {
     font-size: 5vw;

@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+// Images
+import wallPaper from "../images/wallpaper.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -9,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
         /* display:flex; */
         color: #fff;
         background-color: #161b22;
-
     }
     * {
         box-sizing: border-box;

@@ -1,9 +1,10 @@
 // Pictures
 import profilePic from '../images/profile-picture.jpg';
 
+// General
 export type dataElem = {
 	label: string,
-	value: string,
+	value: string
 }
 
 // Persona | About me
@@ -60,7 +61,7 @@ export type Welcome = {
 
 export const welcomePage: Welcome = {
     hello: "Hallo, mein Name ist " + personaData.firstName + " " + personaData.sureName + ".",
-    profession: "Ich bin Projektmanager & Scrum Master.",
+    profession: "Ich bin ein Baum.",
 }
 
 // NavBar Links
