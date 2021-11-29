@@ -8,9 +8,15 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         padding:0px 100px;
-        /* display:flex; */
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height:calc(100% - 100px);
+
         color: #fff;
         background-color: #161b22;
+        
     }
     * {
         box-sizing: border-box;

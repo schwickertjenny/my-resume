@@ -83,3 +83,33 @@ export const NavBarLinks: dataElem[] = [
         value: "/contact",
     },
 ]
+
+// Social Media Links
+export type SocialMedia = {
+	name: string,
+	fontAwesomeIconCode: string,
+    linkToWebpage: string | undefined,
+    value: string | undefined,
+}
+
+export const SocialMediaLinks: SocialMedia[] = [
+    {
+        name: "LinkedIn",
+        fontAwesomeIconCode: "FaLinkedin",
+        linkToWebpage: "https://www.linkedin.com/in/jenny-schwickert-5642a31b3/",
+        value: "",
+    },
+    {
+        name: "Xing",
+        fontAwesomeIconCode: "FaXingSquare",
+        linkToWebpage: "https://www.xing.com/profile/Jenny_Schwickert/cv",
+        value: "",
+    },
+    {
+        name: "E-Mail",
+        fontAwesomeIconCode: "FaEnvelope",
+        linkToWebpage: "mailto:schwickertjenny@gmail.com?subject=Kontakt über die Webseite",
+        value: "",
+    },
+
+]
