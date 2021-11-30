@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function SocialMediaMenue(): JSX.Element {
   return (
-    <Wrapper>
+    <Wrapper className="social-media">
       <ul>
         {SocialMediaLinks.map((link) => (
           <li key={link.name}>

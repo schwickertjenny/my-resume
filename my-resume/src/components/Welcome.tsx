@@ -2,15 +2,18 @@
 import { Wrapper } from "./Welcome.styles";
 import { TypeWriter } from "./TypeWriter.styles";
 // Data
-import { welcomePage } from "../data/resume.data";
+import { welcomePage, personaData } from "../data/resume.data";
 // Image
-// Credit: https://www.pexels.com/de-de/foto/grune-blatter-1072179/
+import  profilePic  from '../images/profile-picture.jpg';
 
 function Welcome(): JSX.Element {
   return (
-    <Wrapper>
-      <h1>{welcomePage.hello}</h1>
-      <p>{welcomePage.profession}</p>
+    <Wrapper className="content">
+      <div className="context-box">
+        <img id="profile-pic" src={profilePic} />
+        <h1>{personaData.firstName} <span>{personaData.sureName}</span></h1>
+        <p>{welcomePage.profession}</p>
+      </div>
     </Wrapper>
   );
 }

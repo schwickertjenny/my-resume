@@ -1,43 +1,32 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  .nav-bar {
-    margin: 40px 0;
-    text-align: center;
-    display: block;
 
-    position: absolute;
-    top: 2vw;  /* position the top  edge of the element at the middle of the parent */
-    left: 50%; /* position the left edge of the element at the middle of the parent */
+    width: auto;
+    height: 100%;
+    float: left;
+    padding: 20px 50px 20px 0;
+    display: flex;
+    margin: 0;
+    background-color: rgba(255,0,0,0.1);
 
-    transform: translate(-50%, -50%); /* This is a shorthand of
-  }
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-
-    -webkit-padding-start: 0px;
-    padding-left: 20px;
-    white-space: nowrap;
   }
   li {
-    /* float: left; */
-    display: inline;
-    margin: 0 40px;
+    margin: 30px 0;
+  }
+  nav {
+    margin: auto; 
   }
   a {
-    /* display: block; */
-    text-align: center;
     text-decoration: none;
 
-    font-size: 2vw;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     position: relative;
-    color: red;
-    opacity: 0.7;
+    color: white;
   }
   @keyframes blink {
     0%,
@@ -52,12 +41,14 @@ export const Wrapper = styled.div`
   }
   a:hover {
     opacity: 1;
+    color:  rgba(255,0,0,0.4);
+    // border-bottom: 4px solid red;
   }
   a:hover::before {
     content: ">";
     position: absolute;
-    left: -20px;
-    font-size: 2vw;
+    left: -15px;
+    font-size: 20px;
     animation: blink 1.25s linear infinite;
   }
 
@@ -68,7 +59,7 @@ export const Wrapper = styled.div`
     }
     a {
       display: block;
-      font-size: 4vw;
+      font-size: 20px;
     }
     a:hover::before {
       content: none;
@@ -81,7 +72,7 @@ export const Wrapper = styled.div`
     ul {
       padding: 0px;
       white-space: none;
-      font-size: 5vw;
+      font-size: 20px;
     }
   }
 
@@ -97,13 +88,13 @@ export const Wrapper = styled.div`
   @media (min-width:1281px) { 
         /* hi-res laptops and desktops */ 
         a {
-          font-size: 30px;
+          font-size: 20px;
         }
         a:hover::before {
           content: ">";
           position: absolute;
-          left: -20px;
-          font-size: 30px;
+          left: -15px;
+          font-size: 20px;
           animation: blink 1.25s linear infinite;
         }
     }
