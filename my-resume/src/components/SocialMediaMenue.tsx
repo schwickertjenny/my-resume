@@ -5,8 +5,8 @@ import { SocialMediaLinks } from "../data/resume.data";
 
 // Font Awesome
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faXingSquare } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faXingSquare, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function SocialMediaMenue(): JSX.Element {
   return (
@@ -21,6 +21,8 @@ function SocialMediaMenue(): JSX.Element {
                 <FontAwesomeIcon icon={faXingSquare} />
               ) : link.name == "LinkedIn" ? (
                 <FontAwesomeIcon icon={faLinkedin} />
+              ) : link.name == "GitHub" ? (
+                <FontAwesomeIcon icon={faGithub} />
               ) : (
                 ""
               )}

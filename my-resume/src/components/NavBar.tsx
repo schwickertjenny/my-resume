@@ -9,7 +9,7 @@ export function NavBar() {
         <nav>
           <ul>
             {NavBarLinks.map((link) => (
-              <li key={link.label}>
+              <li key={link.label} id={link.label=="Download CV" ? "cv" : ""}>
                 <Link to={link.value}>{link.label}</Link>
               </li>
             ))}

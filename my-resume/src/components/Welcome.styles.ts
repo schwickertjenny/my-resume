@@ -1,24 +1,31 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-
   /* padding: 50px; */
   width: auto;
   display: flex;
-  margin: 0;
   height: 100vh;
-  margin-right: 80px;
+  margin-right: 120px;
 
-  .context-box{
+  .context-box {
     /* height: 100%; */
     margin: auto;
     text-align: center;
     padding: 50px;
+    background-color: #4c3c3c3d;
+    border-radius: 0 20px 20px 0;
   }
+  /* .context-box:hover {
+    background-color: #4c3c3c69;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  } */
 
   img#profile-pic {
     border-radius: 50%;
-    border: 10px solid rgba(255,0,0,0.1);
+    border: 15px solid rgba(255, 0, 0, 0.1);
     width: 40%;
     max-width: 400px;
   }
@@ -32,8 +39,9 @@ export const Wrapper = styled.div`
   } */
   p {
     font-size: 20px;
-    padding: 0 150px;
+    padding: 0 200px;
     letter-spacing: 2px;
+    text-align: left;
   }
 
   @media (max-width: 830px) {
