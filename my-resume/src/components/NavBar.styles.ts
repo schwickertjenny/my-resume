@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   display: flex;
   margin: 0;
   background-color: rgba(255, 0, 0, 0.1);
+  box-shadow: 1px -1px 22px 0 #131314;
 
   ul {
     list-style-type: none;
@@ -23,7 +24,8 @@ export const Wrapper = styled.div`
 
       /* display: inline-block; */
       border-radius: 10px;
-      border: 2px solid;
+      /* border: 2px solid; */
+      background-color: #482731;
       padding: 10px;
       width: auto;
       -webkit-transition: all 0.5s;
@@ -50,6 +52,11 @@ export const Wrapper = styled.div`
     letter-spacing: 4px;
     position: relative;
     color: white;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
   }
   @keyframes blink {
     0%,

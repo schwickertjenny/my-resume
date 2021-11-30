@@ -13,8 +13,12 @@ function Welcome(): JSX.Element {
   return (
     <Wrapper className="content">
       <div className="context-box">
+        <div className="webpage-title">
         <img id="profile-pic" src={profilePic} />
         <h1>{personaData.firstName} {personaData.sureName}</h1>
+        </div>
+        
+        <span></span>
         <p>{welcomePage.profession}</p>
       </div>
     </Wrapper>

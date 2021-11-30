@@ -17,6 +17,7 @@ ReactDOM.render(
 
     <BrowserRouter>
       <Routes>
+        {/* TODO in componenten auslagern */}
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about-me" element={<About />} />
