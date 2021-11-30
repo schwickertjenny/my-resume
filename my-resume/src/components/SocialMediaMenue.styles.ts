@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   top: calc(50% + 20px);
   width: auto;
   margin-top: -8em;
-  background-color: rgba(255, 0, 0, 0.1);
+  background-color: #161b22;
   text-align: center;
 
   /* ul:hover {

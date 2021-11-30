@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     margin: auto;
     text-align: center;
     padding: 50px;
-    background-color: #4c3c3c3d;
+    background-color: #2934448c;
     border-radius: 0 20px 20px 0;
   }
   /* .context-box:hover {
@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
 
   img#profile-pic {
     border-radius: 50%;
-    border: 15px solid rgba(255, 0, 0, 0.1);
+    border: 15px solid #161b22;
     width: 40%;
     max-width: 400px;
   }

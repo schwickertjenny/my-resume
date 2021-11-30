@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
 
         color: #fff;
-        background-color: #161b22;
+        background-color: #0d1117;
         
     }
     * {

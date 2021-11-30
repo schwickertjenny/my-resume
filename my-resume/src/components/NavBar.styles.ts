@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   padding: 20px 50px 20px 0;
   display: flex;
   margin: 0;
-  background-color: rgba(255, 0, 0, 0.1);
+  background-color: #161b22;
   box-shadow: 1px -1px 22px 0 #131314;
 
   ul {
@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
       /* display: inline-block; */
       border-radius: 10px;
       /* border: 2px solid; */
-      background-color: #482731;
+      background-color: #161b22;
       padding: 10px;
       width: auto;
       -webkit-transition: all 0.5s;
