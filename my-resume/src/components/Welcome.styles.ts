@@ -12,22 +12,26 @@ export const Wrapper = styled.div`
     margin: auto;
     text-align: center;
     padding: 50px;
-    background-color: #2934448c;
+    background-color: rgb(44 54 68 / 55%);
     border-radius: 0 20px 20px 0;
-  }
-  /* .context-box:hover {
-    background-color: #4c3c3c69;
+
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-  } */
+    /* box-shadow: 10px 10px 20px #000000bd; */
+  }
+  
+  .context-box:hover {
+
+  }
 
   img#profile-pic {
     border-radius: 50%;
-    border: 15px solid #161b22;
+    /* border: 15px solid #161b22; */
     width: 40%;
     max-width: 400px;
+    box-shadow: 10px 10px 20px #00000054;
   }
   h1 {
     font-size: 50px;

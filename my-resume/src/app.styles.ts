@@ -19,8 +19,9 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
 
         color: #fff;
-        background-color: #0d1117;
-        
+        background-color: rgb(13 17 23 / 100%);
+    }
+
     }
     * {
         box-sizing: border-box;

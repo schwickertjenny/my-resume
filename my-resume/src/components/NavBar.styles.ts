@@ -8,7 +8,10 @@ export const Wrapper = styled.div`
   display: flex;
   margin: 0;
   background-color: #161b22;
-  box-shadow: 1px -1px 22px 0 #131314;
+  box-shadow: 1px -1px 22px #000000;
+}
+
+
 
   ul {
     list-style-type: none;
@@ -25,7 +28,7 @@ export const Wrapper = styled.div`
       /* display: inline-block; */
       border-radius: 10px;
       /* border: 2px solid; */
-      background-color: #161b22;
+      background-color: rgba(66, 22, 28, 1);
       padding: 10px;
       width: auto;
       -webkit-transition: all 0.5s;
