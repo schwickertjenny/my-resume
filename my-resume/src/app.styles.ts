@@ -1,49 +1,36 @@
 import { createGlobalStyle } from "styled-components";
+import breakpoint from "./data/breakpoints";
+
 // Images
 import wallPaper from "../images/wallpaper.jpg";
 
 export const GlobalStyle = createGlobalStyle`
-    html {
-        // height: 100%;
-    }
     #root {
         width: 100%;
         height: 100vh;
     }
+
+    @media only screen and ${breakpoint.device.xs} {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     body {
         display:flex;
         flex-direction: row;
         justify-content: flex-start;
-        // align-items: center;
-        // height:calc(100% - 100px);
         margin: 0;
 
         color: #fff;
         background-color: rgb(13 17 23 / 100%);
     }
-
-    }
     * {
         box-sizing: border-box;
         font-family: 'Catamaran', sans-serif;
     }
-    
-    .pad-left-100{
-        // padding:0px 100px;
     }
-
-    @media (min-width:320px)  { 
-        /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-        body {
-        }
+    @media only screen and ${breakpoint.device.sm} {
+        /* smartphones, Android phones, landscape iPhone */
     }
-    @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
-    @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-    @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-    @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-    @media (min-width:1281px) { 
-        /* hi-res laptops and desktops */ 
-        body {
-        }
+    @media only screen and ${breakpoint.device.lg} {
+        /* hi-res laptops and desktops */
+        
     }
 `;
