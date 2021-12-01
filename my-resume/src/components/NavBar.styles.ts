@@ -23,20 +23,19 @@ export const Wrapper = styled.div`
     margin-top: 50px;
     a {
       text-align: center;
-      padding: 10px;
 
       /* display: inline-block; */
       border-radius: 10px;
       /* border: 2px solid; */
       background-color: rgba(66, 22, 28, 1);
-      padding: 10px;
+      padding: 10px 30px;
+      letter-spacing: 0px;
       width: auto;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
       cursor: pointer;
-      /* margin: 5px; */
     }
 
     a:hover::before {
