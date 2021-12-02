@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { NavBar } from "../components/NavBar";
 import SocialMediaMenue from "../components/SocialMediaMenue";
 // Font Awesome
-import { faSadTear, faHeartBroken } from "@fortawesome/free-solid-svg-icons";
+import { faSadTear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ErrorStyle = styled.div`

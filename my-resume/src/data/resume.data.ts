@@ -7,14 +7,20 @@ export type dataElem = {
   value: string;
 };
 
+export type skills = {
+  categoryTitle: string;
+  categoryData: dataElem[];
+};
+
 // Persona | About me
 export type Persona = {
   firstName: string;
   sureName: string;
   age: number;
   profilePic: string;
+  aboutMe: string;
   hobbies: dataElem[] | undefined;
-  skills: dataElem[] | undefined;
+  categories: skills[];
 };
 
 export const personaData: Persona = {
@@ -22,6 +28,7 @@ export const personaData: Persona = {
   sureName: "Schwickert",
   age: 23,
   profilePic: profilePic,
+  aboutMe: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   hobbies: [
     {
       label: "Bouldern",
@@ -31,23 +38,59 @@ export const personaData: Persona = {
       label: "Fotografie",
       value: "Fotofrafieren gehen",
     },
-    {
-      label: "Zocken",
-      value: "Zocken gehen",
-    },
   ],
-  skills: [
+  categories: [
     {
-      label: "Projekt-Management",
-      value: "Operative Professional - IT Business Manager",
+      categoryTitle: "Kontakt",
+      categoryData: [
+        {
+          label: "E-Mail",
+          value: "",
+        },
+        {
+          label: "Telefon",
+          value: "",
+        },
+      ],
     },
     {
-      label: "HTML5",
-      value: "",
+      categoryTitle: "Sprachen",
+      categoryData: [
+        {
+          label: "Deutsch",
+          value: "Muttersprache",
+        },
+        {
+          label: "Englisch",
+          value: "Verhandlungssicher",
+        },
+      ],
     },
     {
-      label: "CSS3",
-      value: "",
+      categoryTitle: "Hard Skills",
+      categoryData: [
+        {
+          label: "IT Projekt Management",
+          value: "",
+        },
+        {
+          label: "SCRUM",
+          value: "",
+        },
+        {
+          label: "Web Development",
+          value: "",
+        },
+      ],
+    },
+    {
+      categoryTitle: "Soft Skills",
+      categoryData: [
+        {
+          label: "Empatie",
+          value: "",
+        },
+      ],
     },
   ],
 };
