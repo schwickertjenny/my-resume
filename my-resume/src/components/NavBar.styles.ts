@@ -21,9 +21,7 @@ export const Wrapper = styled.div`
       a {
         text-align: center;
 
-        /* display: inline-block; */
         border-radius: 10px;
-        /* border: 2px solid; */
         background-color: rgba(66, 22, 28, 1);
         padding: 10px 30px;
         letter-spacing: 0px;
@@ -74,10 +72,7 @@ export const Wrapper = styled.div`
     }
 
     // *--- Menu hover effect ---*
-    a:hover {
-      opacity: 1;
-      color: rgba(255, 0, 0, 0.4);
-    }
+
     a:hover::before {
       content: ">";
       position: absolute;

@@ -18,10 +18,10 @@ export const Wrapper = styled.div`
 
     img#profile-pic {
       border-radius: 50%;
-      /* border: 15px solid #161b22; */
       width: 40%;
-      max-width: 400px;
+      max-width: 30%;
       box-shadow: 10px 10px 20px #00000054;
+      max-width: 400px;
     }
     h1 {
       font-size: 5vw;
@@ -39,20 +39,18 @@ export const Wrapper = styled.div`
   }
   @media only screen and ${breakpoint.device.lg} {
     /* hi-res laptops and desktops */
+    margin-right: 120px;
 
     .context-box {
       margin: auto;
-      padding: 50px;
       border-radius: 0 20px 20px 0;
     }
-
-    margin-right: 120px;
     h1 {
       font-size: 50px;
     }
     p {
       font-size: 20px;
-      padding: 0 200px;
+      padding: 0 5vw;
     }
   }
 `;
