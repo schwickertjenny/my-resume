@@ -11,6 +11,24 @@ export const Wrapper = styled.div`
   @media only screen and ${breakpoint.device.lg} {
     /* hi-res laptops and desktops */
     display: flex;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding-left: 1.3em;
+    }
+    li:before {
+      content: ">";
+      display: inline-block;
+      margin-left: -1.3em; /* same as padding-left set on li */
+      width: 1.3em; /* same as padding-left set on li */
+    }
+    span {
+      color: #701a26;
+      letter-spacing: 1px;
+      /* text-transform: uppercase; */
+    }
     div#summary-bar {
       height: 100vw;
       width: auto;
@@ -20,10 +38,6 @@ export const Wrapper = styled.div`
       padding: 30px;
     }
     div#summary-bar {
-      span {
-        color: #701a26;
-        letter-spacing: 1px;
-      }
       h2 {
         text-align: center;
         text-transform: uppercase;
@@ -37,23 +51,25 @@ export const Wrapper = styled.div`
         text-transform: uppercase;
         border-bottom: 1px solid;
       }
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        padding-left: 1.3em;
-      }
-      li:before {
-        content: ">";
-        display: inline-block;
-        margin-left: -1.3em; /* same as padding-left set on li */
-        width: 1.3em; /* same as padding-left set on li */
-      }
     }
     img#profile-pic {
       width: 300px;
       border-radius: 50%;
+    }
+    .experience {
+      margin: 50px;
+      width: 100%;
+      background: #1e262f;
+      padding: 20px 39px;
+      border-radius: 0%;
+      height: 100%;
+    }
+    .experience {
+      h2 {
+        border-bottom: 1px solid;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
     }
   }
 `;
