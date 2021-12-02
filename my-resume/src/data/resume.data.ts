@@ -45,11 +45,11 @@ export const personaData: Persona = {
       categoryData: [
         {
           label: "E-Mail",
-          value: "",
+          value: "hello@noob.com",
         },
         {
           label: "Telefon",
-          value: "",
+          value: "0815 / 12345678",
         },
       ],
     },
@@ -62,7 +62,7 @@ export const personaData: Persona = {
         },
         {
           label: "Englisch",
-          value: "Verhandlungssicher",
+          value: "verhandlungssicher",
         },
       ],
     },
@@ -78,8 +78,8 @@ export const personaData: Persona = {
           value: "",
         },
         {
-          label: "Web Development",
-          value: "",
+          label: "Web Development & Design",
+          value: "<3",
         },
       ],
     },
@@ -87,7 +87,23 @@ export const personaData: Persona = {
       categoryTitle: "Soft Skills",
       categoryData: [
         {
-          label: "Empatie",
+          label: "Analytisches Denken",
+          value: "",
+        },
+        {
+          label: "Problemlösung",
+          value: "",
+        },
+        {
+          label: "Kommunikation",
+          value: "",
+        },
+        {
+          label: "Menschenkenntnis",
+          value: "",
+        },
+        {
+          label: "Kritikfähigkeit",
           value: "",
         },
       ],

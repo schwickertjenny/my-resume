@@ -14,11 +14,16 @@ export const Wrapper = styled.div`
     div#summary-bar {
       height: 100vw;
       width: auto;
+      max-width: 400px;
       float: left;
       background-color: rgb(44 54 68 / 55%);
       padding: 30px;
     }
     div#summary-bar {
+      span {
+        color: #701a26;
+        letter-spacing: 1px;
+      }
       h2 {
         text-align: center;
         text-transform: uppercase;
