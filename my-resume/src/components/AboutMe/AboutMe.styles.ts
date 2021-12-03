@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breakpoint from "../data/breakpoints";
+import breakpoint from "../../data/breakpoints";
 
 export const Wrapper = styled.div`
   @media only screen and ${breakpoint.device.xs} {
@@ -27,15 +27,16 @@ export const Wrapper = styled.div`
     span {
       color: #701a26;
       letter-spacing: 1px;
-      /* text-transform: uppercase; */
     }
+
+    /* -------------- SUMMARY BAR -------------- */
     div#summary-bar {
-      height: 100vw;
       width: auto;
       max-width: 400px;
       float: left;
       background-color: rgb(44 54 68 / 55%);
       padding: 30px;
+      height: 100vh;
     }
     div#summary-bar {
       h2 {
@@ -56,11 +57,13 @@ export const Wrapper = styled.div`
       width: 300px;
       border-radius: 50%;
     }
+
+    /* -------------- EXPERIENCE -------------- */
     .experience {
-      margin: 50px;
+      margin: auto 50px;
       width: 100%;
       background: #1e262f;
-      padding: 20px 39px;
+      padding: 50px 40px;
       border-radius: 0%;
       height: 100%;
     }

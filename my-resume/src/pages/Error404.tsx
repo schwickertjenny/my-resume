@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { NavBar } from "../components/NavBar";
-import SocialMediaMenue from "../components/SocialMediaMenue";
+import { NavBar } from "../components/NavBar/NavBar";
+import SocialMediaMenue from "../components/SocialMediaMenu/SocialMediaMenue";
 // Font Awesome
 import { faSadTear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

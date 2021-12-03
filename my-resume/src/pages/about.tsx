@@ -1,6 +1,6 @@
-import { AboutMe } from "../components/AboutMe";
-import { NavBar } from "../components/NavBar";
-import SocialMediaMenue from "../components/SocialMediaMenue";
+import { AboutMe } from "../components/AboutMe/AboutMe";
+import { NavBar } from "../components/NavBar/NavBar";
+import SocialMediaMenue from "../components/SocialMediaMenu/SocialMediaMenue";
 
 export default function About() {
   return (

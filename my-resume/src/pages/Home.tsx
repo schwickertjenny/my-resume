@@ -1,8 +1,8 @@
 import React from "react";
 // Components
-import Welcome from "../components/Welcome";
-import { NavBar } from "../components/NavBar";
-import SocialMediaMenue from "../components/SocialMediaMenue";
+import Welcome from "../components/Welcome/Welcome";
+import { NavBar } from "../components/NavBar/NavBar";
+import SocialMediaMenue from "../components/SocialMediaMenu/SocialMediaMenue";
 
 
 function Home() {

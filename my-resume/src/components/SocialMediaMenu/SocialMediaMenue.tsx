@@ -1,7 +1,7 @@
 //Styles
 import { Wrapper } from "./SocialMediaMenue.styles";
 // Data
-import { SocialMediaLinks } from "../data/resume.data";
+import { SocialMediaLinks } from "../../data/resume.data";
 
 // Font Awesome
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";

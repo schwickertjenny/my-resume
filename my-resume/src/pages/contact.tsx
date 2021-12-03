@@ -1,6 +1,5 @@
-import React from "react";
-import { NavBar } from "../components/NavBar";
-import SocialMediaMenue from "../components/SocialMediaMenue";
+import { NavBar } from "../components/NavBar/NavBar";
+import SocialMediaMenue from "../components/SocialMediaMenu/SocialMediaMenue";
 
 export default function Contact() {
   return (

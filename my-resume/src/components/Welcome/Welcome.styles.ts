@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breakpoint from "../data/breakpoints";
+import breakpoint from "../../data/breakpoints";
 
 export const Wrapper = styled.div`
   @media only screen and ${breakpoint.device.xs} {

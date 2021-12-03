@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     #root {
         width: 100%;
         height: 100vh;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     @media only screen and ${breakpoint.device.xs} {
@@ -24,6 +24,9 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Catamaran', sans-serif;
     }
+    }
+    .margin-left-300 {
+        margin-left: 300px;
     }
     @media only screen and ${breakpoint.device.sm} {
         /* smartphones, Android phones, landscape iPhone */

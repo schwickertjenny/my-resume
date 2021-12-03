@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breakpoint from "../data/breakpoints";
+import breakpoint from "../../data/breakpoints";
 
 export const Wrapper = styled.div`
   @media only screen and ${breakpoint.device.xs} {
@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
     margin: 0;
     background-color: #161b22;
     box-shadow: 1px -1px 22px #000000;
-
+    position: fixed;
     ul {
       list-style-type: none;
     }
@@ -58,7 +58,6 @@ export const Wrapper = styled.div`
   }
   @media only screen and ${breakpoint.device.sm} {
     /* smartphones, Android phones, landscape iPhone */
-    
   }
   @media only screen and ${breakpoint.device.lg} {
     /* hi-res laptops and desktops */
@@ -66,6 +65,7 @@ export const Wrapper = styled.div`
     height: 100%;
     float: left;
     padding: 20px 50px 20px 0;
+    width: 300px;
 
     a {
       font-size: 20px;

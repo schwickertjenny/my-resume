@@ -2,13 +2,13 @@ import { Wrapper } from "./AboutMe.styles";
 import {
   personaData as pD,
   ExperienceSummary as eS,
-} from "../data/resume.data";
+} from "../../data/resume.data";
 // Image
-import profilePic from "../images/about-me.jpg";
+import profilePic from "../../images/about-me.jpg";
 
 export function AboutMe() {
   return (
-    <Wrapper className="card">
+    <Wrapper className="card margin-left-300">
       {/*------------------SUMMARY BAR LEFT------------------*/}
       <div id="summary-bar">
         <img id="profile-pic" src={profilePic} alt="Jenny" />
@@ -41,7 +41,8 @@ export function AboutMe() {
               {group.experienceData.map((entry) => (
                 <>
                   <h3>
-                    {entry.duration}<span> | {entry.position}</span>
+                    {entry.duration}
+                    <span> | {entry.position}</span>
                   </h3>
                   <ul>
                     {entry.tasks.map((task) => (
@@ -55,6 +56,8 @@ export function AboutMe() {
             </div>
           </>
         ))}
+
+        <div className="badges"></div>
       </div>
     </Wrapper>
   );
