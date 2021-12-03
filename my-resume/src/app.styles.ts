@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import breakpoint from "./data/breakpoints";
 
-// Images
-import wallPaper from "../images/wallpaper.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     #root {

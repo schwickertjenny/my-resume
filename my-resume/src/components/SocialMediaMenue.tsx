@@ -14,14 +14,14 @@ function SocialMediaMenue(): JSX.Element {
       <ul>
         {SocialMediaLinks.map((link) => (
           <li key={link.name}>
-            <a target="_blank" href={link.linkToWebpage}>
-              {link.name == "E-Mail" ? (
+            <a target="_blank" rel="noreferrer" href={link.linkToWebpage}>
+              {link.name === "E-Mail" ? (
                 <FontAwesomeIcon icon={faEnvelope} />
-              ) : link.name == "Xing" ? (
+              ) : link.name === "Xing" ? (
                 <FontAwesomeIcon icon={faXingSquare} />
-              ) : link.name == "LinkedIn" ? (
+              ) : link.name === "LinkedIn" ? (
                 <FontAwesomeIcon icon={faLinkedin} />
-              ) : link.name == "GitHub" ? (
+              ) : link.name === "GitHub" ? (
                 <FontAwesomeIcon icon={faGithub} />
               ) : (
                 ""
